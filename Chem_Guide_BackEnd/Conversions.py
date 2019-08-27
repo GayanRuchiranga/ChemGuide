@@ -34,5 +34,6 @@ def first_iteration(input, input_mol, output, output_mol):
 
     if(len(steps) > 0):
         return ",".join(steps)
+    
     else:
         return "1"
